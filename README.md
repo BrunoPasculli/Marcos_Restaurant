@@ -14,7 +14,7 @@ I helped him organize the information he had and then created the following enti
 ## Datasets
 
 ## Table 1: sales
-This table has the information of which have ordered the customer (`customer_id`), when (`order_date`) and the product ordered identifed with a `product_id`. 
+This table has the information that the customer has ordered (`customer_id`), when (`order_date`) and the product ordered identified as `product_id`. 
 
 | customer_id | order_date | product_id |
 |:------------:|:-----------:|:-----------:|
@@ -30,4 +30,21 @@ This table has the information of which have ordered the customer (`customer_id`
 |      C       |  2024-03-01  |      1      |
 |      C       |  2024-03-01  |      2      |
 |      C       |  2024-03-07  |      1      |
+
+## Table 2: menu
+The menu table contains the dish ordered from the menu as `product_name` with its `price` and the id of the corresponding item as `product_id`.
+
+| product_id | product_name | price |
+|:----------:|:------------:|:-----:|
+|      1     |   spaghetti  |   20  |
+|      2     |    ravioli   |   30  |
+|      3     |   canelloni  |   40  |
+
+## Table 3: members
+And the last one, the members table, has the date of registration (`join_date`) of all the members as `customer_id` of the loyalty program of Marco’s Restaurant. 
+
+| customer_id | join_date |
+|:-----------:|:---------:|
+|      A      | 2024-03-06|
+|      B      | 2024-03-08|
 
