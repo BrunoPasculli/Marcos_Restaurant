@@ -12,3 +12,22 @@ I helped him organize the information he had and then created the following enti
 
 
 ## Datasets
+
+## Table 1: sales
+This table has the information of which have ordered the customer (`customer_id`), when (`order_date`) and the product ordered identifed with a `product_id`. 
+
+| customer_id | order_date | product_id |
+|:------------:|:-----------:|:-----------:|
+|      A       |  2024-03-01  |      1      |
+|      A       |  2024-03-01  |      2      |
+|      A       |  2024-03-06  |      3      |
+|      A       |  2024-03-08  |      3      |
+|      A       |  2024-03-01  |      1      |
+|      A       |  2024-03-01  |      1      |
+|      B       |  2024-03-01  |      2      |
+|      B       |  2024-03-02  |      1      |
+|      B       |  2024-03-07  |      3      |
+|      C       |  2024-03-01  |      1      |
+|      C       |  2024-03-01  |      2      |
+|      C       |  2024-03-07  |      1      |
+
