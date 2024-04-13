@@ -79,10 +79,10 @@ And the last one, the members table, has the date of registration (`join_date`) 
 
 ## Insights for Marco
 From the analysis, I have discovered the following which would be useful for Marco and his new business: 
-•	Customer A and B are the most frequent visitor with 3 visits both in Mar 2024.
-•	Marco’s Restaurant most popular dish is spaghetti, 6 times ordered. 
-•	The first time each customer goes to Marco’s Restaurant orders ravioli or spaghetti but it’s more common the first one. 
-•	Customer A and C prefer spaghetti while B likes all the menu options equally. 
-•	Customer A was the 1st member of Marco’s Restaurant, and his first order was spaghetti and ravioli.
-•	Before they became members, Customer A and Customer B spent $90 each. 
-•	Throughout March 2024, Customer A, Customer B and Customer C had 2500 points, 1300 points and 700 points respectively.
+- Customer A and B are the most frequent visitor with 3 visits both in Mar 2024.
+- Marco’s Restaurant most popular dish is spaghetti, 6 times ordered.
+- The first time each customer goes to Marco’s Restaurant orders ravioli or spaghetti but it’s more common the first one.
+- Customer A and C prefer spaghetti while B likes all the menu options equally.
+- Customer A was the 1st member of Marco’s Restaurant, and his first order was spaghetti and ravioli.
+- Before they became members, Customer A and Customer B spent $90 each.
+- Throughout March 2024, Customer A, Customer B and Customer C had 2500 points, 1300 points and 700 points respectively.
