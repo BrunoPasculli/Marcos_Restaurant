@@ -13,7 +13,7 @@ I helped him organize the information he had and then created the following enti
 
 ## Datasets
 
-## Table 1: sales
+### Table 1: sales
 This table has the information that the customer has ordered (`customer_id`), when (`order_date`) and the product ordered identified as `product_id`. 
 
 | customer_id | order_date | product_id |
@@ -31,7 +31,7 @@ This table has the information that the customer has ordered (`customer_id`), wh
 |      C       |  2024-03-01  |      2      |
 |      C       |  2024-03-07  |      1      |
 
-## Table 2: menu
+### Table 2: menu
 The menu table contains the dish ordered from the menu as `product_name` with its `price` and the id of the corresponding item as `product_id`.
 
 | product_id | product_name | price |
@@ -40,11 +40,40 @@ The menu table contains the dish ordered from the menu as `product_name` with it
 |      2     |    ravioli   |   30  |
 |      3     |   canelloni  |   40  |
 
-## Table 3: members
+### Table 3: members
 And the last one, the members table, has the date of registration (`join_date`) of all the members as `customer_id` of the loyalty program of Marco’s Restaurant. 
 
 | customer_id | join_date |
 |:-----------:|:---------:|
 |      A      | 2024-03-06|
 |      B      | 2024-03-08|
+
+## Case study questions
+1. What is the total amount each customer spent at the restaurant?
+2. How many days has each customer visited the restaurant?
+3. What was the first item from the menu purchased by each customer?
+4. What is the most purchased item on the menu and how many times was it purchased by all customers?
+5. Which item was the most popular for each customer?
+6. Which item was purchased first by the customer after they became a member?
+7. Which item was purchased just before the customer became a member?
+8. What is the total items and amount spent for each member before they became a member?
+9. If each $1 spent equates to 10 points and sushi has a 2x points multiplier - how many points would each customer have?
+10. Create a table that show all the data combine to help Marco and his team to better understand business information.
+11. To complement the previous table in point 10, we will show a more complete one that also show the member orders only, otherwise show "NULL".
+
+| customer_id | order_date | product_name | price | member | ranking |
+|:-----------:|:----------:|:------------:|:-----:|:------:|:-------:|
+|      A      | 2024-03-01 |   spaghetti  |  20   |   NO   |  NULL   |
+|      A      | 2024-01-01 |   raviolli   |  30   |   NO   |  NULL   |
+|      A      | 2024-03-01 |   spaghetti  |  20   |   NO   |  NULL   |
+|      A      | 2024-03-01 |   spaghetti  |  20   |   NO   |  NULL   |
+|      A      | 2024-03-06 |   canelloni  |  40   |  YES   |    1    |
+|      A      | 2021-03-08 |   canelloni  |  40   |  YES   |    2    |
+|      B      | 2021-03-01 |   raviolli   |  30   |   NO   |  NULL   |
+|      B      | 2021-03-02 |   spaghetti  |  20   |   NO   |  NULL   |
+|      B      | 2021-03-07 |   canelloni  |  40   |  YES   |    1    |
+|      C      | 2021-03-01 |   spaghetti  |  20   |   NO   |  NULL   |
+|      C      | 2021-03-01 |   raviolli   |  30   |   NO   |  NULL   |
+|      C      | 2021-03-07 |   spaghetti  |  20   |   NO   |  NULL   |
+
 
