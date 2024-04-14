@@ -8,7 +8,9 @@ So, as a first approach, he wants to use the data to answer a few simple questio
 
 Marco plans on using these insights to help him decide whether he should expand the existing customer loyalty program. In addition, he needs help to generate some basic datasets so his team can easily inspect the data without using SQL.
 
-I helped him organize the information he had and then created an ![entity-relationship diagram](https://github.com/BrunoPasculli/Marcos_Restaurant/blob/main/ERD.PNG?raw=true). 
+I helped him organize the information he had and then created this entity-relationship diagram: 
+
+![entity-relationship diagram](https://github.com/BrunoPasculli/Marcos_Restaurant/blob/main/ERD.PNG?raw=true)
 
 ## Datasets
 
